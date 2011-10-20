@@ -1,0 +1,9 @@
+LogID;Timestamp when Programm starts [s from 01.01.1970];
+m,n,p;Dimensions of the matrices (A[m][n] * B[n][p] = C[m][p]);
+print option;0=nothing 1=screen 2=file(LogID_xxxxxxxxxx.txt) 3=screen and file;
+method; Compare results of parallel multiplications to 0 = nothing or 1 = seq. multiplication
+multipliTime;Time[s] for multiplication;
+multipliType;Type of multiplication;
+numOfProc;Number of Processors on the machine;
+
+LogID;print option;method;m;n;p;multipliTime;multipliType;numOfProc;
