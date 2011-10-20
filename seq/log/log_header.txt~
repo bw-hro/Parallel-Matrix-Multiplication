@@ -1,0 +1,7 @@
+LogID;Timestamp when Programm starts [s from 01.01.1970];
+m,n,p;Dimensions of the matrices (A[m][n] * B[n][p] = C[m][p]);
+print option;0=nothing 1=screen 2=file(LogID_xxxxxxxxxx.txt) 3=screen and file;
+runtime;Hole time[ms] for malloc, init, multiplication;
+multipliTime;Time[ms] for multiplication only;
+
+LogID;m;n;p;print option;runtime;multipliTime;
